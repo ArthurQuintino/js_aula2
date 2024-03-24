@@ -13,8 +13,8 @@ Inicie o seu serviço do nodeJs no prompt de comando do windows para fazer os ex
 Utilize os espaços entre os comentários abaixo para executar os códigos dos exercícios.
 */
 
-//const frase = "Grandes poderes trazem grandes responsabilidades."
-//console.log(frase)
+const frase = "Grandes poderes trazem grandes responsabilidades."
+console.log(frase)
 
 /*
 02 - Comente o console.log acima, e:
@@ -28,11 +28,12 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 
 
 
-//const tom = 'Tom'
-//const firstTom = 'Hanks'
-//const secondTom = 'Cruise'
+const tom = 'Tom'
+const firstTom = 'Hanks'
+const secondTom = 'Cruise'
 
-//const myFavoriteTom = tom + " " + secondTom
+const myFavoriteTom = tom + " " + secondTom
+console.log(myFavoriteTom)
 
 
 
@@ -47,11 +48,9 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "js" no console;
 
 */
-//const programmingLanguage = 'JavaScript'
-//const j1 = programmingLanguage[0]
-//const s1 = programmingLanguage[4]
-//js = j1+s1
-//console.log(js)
+const programmingLanguage = 'JavaScript'
+const js = programmingLanguage.slice(0,1) + programmingLanguage.slice(4,5)
+console.log(js)
 
 
 /*
@@ -62,12 +61,9 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "mdn" no console;
 */
 
-//const mozilla = 'Mozilla Developer Network'
-//const M = mozilla[0]
-//const D = mozilla[8]
-//const N = mozilla[18]
-//const mdn = M+D+N
-//console.log(mdn) 
+const mozilla = 'Mozilla Developer Network'
+const mdn = mozilla.slice(0,1) + mozilla.slice(8,9) + mozilla.slice(18,19)
+console.log(mdn) 
 
 
 /*
@@ -76,8 +72,8 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba no console a quantidade de caracteres que a constante "programmingLanguage" possui;
 */
 
-//const chrcs = programmingLanguage.length
-//console.log(chrcs)
+const caracteres = programmingLanguage.length
+console.log(caracteres)
 
 
 /*
@@ -88,10 +84,9 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Dica: utilize a propriedade ".length".
 */
 
-//let randomWord = 'sla'
-//let content = randomWord.length
-//const result = randomWord.slice(content - 1)
-//console.log(result)
+const pinga = 'arapongas'
+console.log(pinga[pinga.length -1])
+
 
 
 /*
@@ -102,9 +97,8 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Não digite a nova string manualmente.
 */
 
-//const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
-//const resultt = summerMessage.toLowerCase()
-//console.log(resultt)
+const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
+console.log(summerMessage.toLowerCase())
 
 
 /*
@@ -115,14 +109,13 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Não digite a nova string manualmente.
 */
 
-//const winterMessage = 'o inverno está chegando'
-//const resulttt = winterMessage.toUpperCase()
-//console.log(resulttt)
+const winterMessage = 'o inverno está chegando'
+console.log(winterMessage.toUpperCase())
 
 /*
 09 - Comente o console.log acima, e,
 
 - Exiba, no console, o index do caractere "v" da "winterMessage";
 */
-//console.log(winterMessage.indexOf("v"))
+console.log(winterMessage.indexOf("v"))
 
